@@ -1,0 +1,22 @@
+.main{ 
+  display:flex;
+  height:100vh; 
+  flex-direction:column;
+} 
+
+.first-block{
+  height: 50%; 
+  width: 100%; 
+  background:black;
+}  
+.second-block{ 
+  display:flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items:flex-start; 
+  height: 50%; 
+  width: 100%; 
+}  
+
+
+
