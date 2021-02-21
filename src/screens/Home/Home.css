@@ -1,0 +1,128 @@
+.main{ 
+  display:flex;
+  height:100%;  
+  width: 100vw;
+  flex-direction:column;
+} 
+
+.first-block{ 
+  display: flex;
+  height:500px; 
+  width: 100%; 
+  background:#F9F9F9;
+}   
+.statement{  
+  align-content: center; 
+  justify-content: center;
+  height: 100%; 
+  width: 70%;  
+  padding-top: 100px;   
+  margin-left:20px;
+} 
+.name-heading{
+  font-size: 4rem; 
+  font-weight: 700; 
+} 
+.brand-statement{
+  font-size: 2rem; 
+  font-weight: 500; 
+} 
+.about-me-button{
+  font-size:.7rem;  
+  font-weight: bold;
+}
+.second-block{ 
+  display:flex; 
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  align-items:flex-start; 
+  height: auto; 
+  width: 100%; 
+  background:#F9F9F9  
+}   
+.third-block{
+  height: 500px; 
+  width: 100%; 
+  background:#F9F9F9;
+}
+.project{ 
+  width: 250px;
+  height: 425px;  
+  text-align: center; 
+  font-size: .7rem; 
+  color:black;
+  justify-content: center;  
+  align-items: center; 
+  border: 2px solid #0A100D;
+  border-radius: .40rem; 
+  margin:20px;
+}    
+.project:hover {
+  box-shadow: 5px 5px 8px #0A100D;
+  transition: all 0.3s;
+}
+
+
+.projects-heading{
+ text-align: center; 
+ padding-top:10px;
+}  
+.project-name{
+  font-weight: bold; 
+  font-size: 1.5rem;
+}
+
+button{ 
+  background-color:#0A100D;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px; 
+  font-weight: 700;
+  color: #F9F9F9;
+  padding: 5px 10px;
+  margin: 5px;
+  width: 80px;
+} 
+.project-image{
+  width: 100%; 
+  height:200px; 
+  margin-bottom: 10px; 
+  border-bottom:2px solid #0A100D;
+} 
+.project-des{
+  margin-left:7px; 
+  margin-right: 7px; 
+  font-size: .8rem; 
+  font-weight: 500; 
+  color: black;
+}
+
+@media screen and (max-width: 900px){
+  .second-block{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center; 
+    align-items:flex-start; 
+  }   
+  .statement{  
+    align-content: center; 
+    justify-content: center;
+    height: 100%; 
+    width: 70%;  
+    padding-top: 75px;   
+    margin-left:20px;
+  } 
+  .first-block{ 
+    display: flex;
+    height:350px; 
+    width: 100%; 
+    background:#F9F9F9;
+  }   
+  .name-heading{
+    font-size: 2rem; 
+  } 
+  .brand-statement{
+    font-size: 1rem;
+  }
+}
+
