@@ -3,10 +3,10 @@
   flex-direction: column; 
   justify-content: center; 
   align-items: center;  
-  margin-top: 60px; 
+  margin-top: 40px; 
   width: 100%; 
-  height:70vh; 
-  font-weight: 700;
+  height:80vh; 
+  font-weight: 700; 
 }
 
 Form{   
