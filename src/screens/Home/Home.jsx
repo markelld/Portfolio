@@ -62,8 +62,38 @@ const Home = () => {
                 <button className="project-button">View App</button>
               </a>
             </div> 
-          </div>  
-          <div className="third-block"> 
+          </div>   
+          <div>
+            <h1 className="skills-heading">Skills</h1> 
+          </div>
+          <div className="third-block">   
+            <div className="front-end"> 
+              <h3 className="skills-subheading">Front-end:</h3> 
+              <ul>
+                <li>HTML,CSS,Javascript</li> 
+                <li>React for single page applications</li> 
+                <li>Axios to utilize Rest Api's</li> 
+              </ul>  
+            </div> 
+            <div className="back-end">
+              <h3 className="skills-subheading">Back-end:</h3> 
+              <ul>
+                <li>MongoDB</li> 
+                <li>Express</li> 
+                <li>SQL,PostgreSQL</li> 
+                <li>Ruby & Ruby on Rails</li>
+              </ul>
+            </div> 
+            <div className="development-tools"> 
+              <h3 className="skills-subheading">Tools for development:</h3>  
+              <ul>
+                <li>Postman</li> 
+                <li>Compass</li> 
+                <li>Github</li> 
+                <li>Chrome Developer Tools</li> 
+                <li>VSCode</li>
+              </ul>
+            </div> 
           </div>
         </div>
       </Layout>
