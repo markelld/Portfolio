@@ -134,6 +134,25 @@ const Home = () => {
               >
                 <button className="project-button">View App</button>
               </a>
+            </div> 
+            <div className="project">
+              <div>
+                <img src="AD.png" className="project-image" />
+              </div>
+              <h3 className="project-name">AD</h3>
+              <p className="project-des">
+                Artiste Depremes replicates the functionality of social platform with crud functionality. Made with React and Ruby on Rails.
+              </p>
+              <a
+                href="https://github.com/markelld/artistedeprime"
+                target="_blank"
+                alt=""
+              >
+                <button className="project-button">View Code</button>
+              </a>
+              <a href="https://dipremes.netlify.app/" target="_blank" alt="">
+                <button className="project-button">View App</button>
+              </a>
             </div>
           </div>
         </div>
