@@ -12,7 +12,7 @@ const Home = () => {
             <div className="statement">
               <h1 className="name-heading">Hey, I'm Markell.</h1>
               <p className="brand-statement">
-                I'm consantly trying to learn something new to execute my ideas.
+                I'm attempting to make the neccessary steps everyday to becoming a better engineer.
               </p>
               <Link to="/about">
                 <Button variant="danger" className="about-me-button">
@@ -141,7 +141,7 @@ const Home = () => {
               </div>
               <h3 className="project-name">AD</h3>
               <p className="project-des">
-                Artiste Depremes replicates the functionality of social platform with crud functionality. Made with React and Ruby on Rails.
+                Artiste Depremes replicates the functionality of a social platform with crud functionality. Made with React and Ruby on Rails.
               </p>
               <a
                 href="https://github.com/markelld/artistedeprime"
