@@ -12,7 +12,7 @@ const Home = () => {
             <div className="statement">
               <h1 className="name-heading">Hey, I'm Markell.</h1>
               <p className="brand-statement">
-                I'm a Junior Engineer looking to join a engineer team which I can learn improve my skills.
+                
               </p>
               <Link to="/about">
                 <Button variant="danger" className="about-me-button">
