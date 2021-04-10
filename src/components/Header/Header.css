@@ -6,5 +6,14 @@ border-bottom: solid 2px black;
 } 
 a.nav.link{
   color: black;
-  font-weight: 700;
+  font-weight: 700; 
+  margin-left:10px;
 } 
+
+.mr-auto{
+  background-color: #F9F9F9; 
+} 
+
+.navbar-nav .nav-link {
+  padding-left: 10px;
+}

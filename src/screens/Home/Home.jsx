@@ -3,6 +3,7 @@ import Layout from "../../components/Layout/Layout";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
+
 const Home = () => {
   return (
     <div>
@@ -10,10 +11,24 @@ const Home = () => {
         <div className="main">
           <div className="first-block">
             <div className="statement">
-              <h1 className="name-heading">Hey, I'm Markell.</h1>
-              <p className="brand-statement">
-                
-              </p>
+              {/* <h1 className="name-heading">Hey, I'm Markell.</h1> */}
+              {/* <Link to="/about">
+                <Button variant="danger" className="about-me-button">
+                  About Me
+                </Button>
+              </Link>  
+              <a
+                target="_blank"
+                alt=""
+                href="https://docs.google.com/document/d/1axaqKrqbP9x1_yrgSuJ0cvta30rMCv2zfxrFHY6JzPI/edit?usp=sharing"
+              >
+                <Button variant="danger" className="about-me-button">
+                  Resume
+                </Button>
+              </a> */}
+            </div>
+          </div>
+          <div className="linkbutton-div">
               <Link to="/about">
                 <Button variant="danger" className="about-me-button">
                   About Me
@@ -28,7 +43,6 @@ const Home = () => {
                   Resume
                 </Button>
               </a>
-            </div>
           </div>
           <div className="project-heading-div">
             <h1 className="projects-heading">Skills</h1> 
