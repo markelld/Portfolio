@@ -1,25 +1,25 @@
 .nav{
   display: inline-flex;  
-  align-content: center;
-  width: 100%; 
+  align-content: center; 
+  width: 100vw; 
   height: 100px;
-  background: #37393A;
-  border-bottom: 2px solid white;
-  color:white;
+  background:  #FDFFFF;
+  border-bottom: 2px solid #0A100D;
+  color:#0A100D;
 }   
 .nav a, .links {
   padding: 2px 15px;  
   align-self: center;
   text-decoration: none;
-  color: white;
+  color: #0A100D;
 }  
 
 .nav-home{
   font-size:30px; 
-  color: white;
+  color: #0A100D;
   margin: 0 20px;
 } 
  
 nav a:hover{
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #0A100D;
 }

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
     <a href="https://github.com/markelld" target="_blank" alt="Github">
-      <img src="https://img.icons8.com/clouds/2x/github.png"/>
+      <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png"/>
     </a>
   </footer>
   )

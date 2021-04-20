@@ -1,0 +1,23 @@
+.form-body{
+ height:80vh;  
+ width: 100vw; 
+ background-color: #A7C8B7;   
+ padding-top:60px;
+} 
+.contact-form{
+  display: flex; 
+  flex-direction: column;  
+  justify-content:center; 
+  align-items: center;    
+}  
+
+.contact-form input, 
+.contact-form textarea{ 
+  width: 50%;
+  margin: 10px;
+  border: 2px solid #0A100D;
+  border-radius: 5px;
+  font-size: 15px;   
+  color:#0A100D;
+ } 
+ 
