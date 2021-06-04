@@ -1,6 +1,6 @@
 import "./Home.css";
 import Layout from "../../components/Layout/Layout";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
 
@@ -31,18 +31,18 @@ const Home = () => {
           </div>
           <div className="linkbutton-div">
               <Link to="/about">
-                <Button variant="danger" className="about-me-button">
+                <button variant="danger" className="about-me-button">
                   About Me
-                </Button>
+                </button>
               </Link>  
               <a
                 target="_blank"
                 alt=""
                 href="https://docs.google.com/document/d/1axaqKrqbP9x1_yrgSuJ0cvta30rMCv2zfxrFHY6JzPI/edit?usp=sharing"
               >
-                <Button variant="danger" className="about-me-button">
+                <button variant="danger" className="about-me-button">
                   Resume
-                </Button>
+                </button>
               </a>
           </div>
           <div className="project-heading-div">
