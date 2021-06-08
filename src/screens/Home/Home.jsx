@@ -12,7 +12,7 @@ const Home = () => {
           <div className="first-block">
             <div className="statement">
               <h1 className="name-heading">Hey, I'm Markell.</h1>
-              <h2 className="tagline-heading">My goal is to turn my love for design into code.</h2>
+              {/* <h2 className="tagline-heading">My goal is to turn my love for design into code.</h2> */}
               {/* <Link to="/about">
                 <Button variant="danger" className="about-me-button">
                   About Me
