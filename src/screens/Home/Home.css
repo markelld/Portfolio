@@ -44,7 +44,15 @@
   font-size: 4rem; 
   font-weight: 700;  
   margin-left: 40px;
-}  
+}   
+.tagline{
+  font-size: 2rem; 
+  font-weight: 700;  
+  margin-left: 40px;
+} 
+.typical{
+  color:yellow;
+}
 .tagline-heading{
   font-size: 2rem; 
   font-weight: 700;  
@@ -209,6 +217,11 @@ li{
   }   
   .name-heading{
     font-size: 2rem; 
+  }  
+  .tagline{
+    font-size: 1rem; 
+    font-weight: 700;  
+    margin-left: 40px;
   } 
   .brand-statement{
     font-size: 1rem;

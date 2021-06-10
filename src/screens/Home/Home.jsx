@@ -2,6 +2,7 @@ import "./Home.css";
 import Layout from "../../components/Layout/Layout";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import Typical from "react-typical";
 
 
 const Home = () => {
@@ -11,11 +12,27 @@ const Home = () => {
         <div className="main">
           <div className="first-block">
             <div className="statement">
-              <h1 className="name-heading">Hey, I'm Markell.</h1>
+              <h1 className="name-heading">Hey, I'm Markell! </h1> 
+              <h4 className="tagline">I'm a{" "}
+                <Typical
+                  className="typical"
+                  loop={Infinity}
+                  wrapper="b"
+                  steps={[
+                    "Developer.",
+                    1000,
+                    "Artist.",
+                    1000,
+                    "Bartender.",
+                    1000,
+                    
+                 ]}
+                />
+              </h4>
               {/* <h2 className="tagline-heading">My goal is to turn my love for design into code.</h2> */}
               {/* <Link to="/about">
                 <Button variant="danger" className="about-me-button">
-                  About Me
+                  About Me 
                 </Button>
               </Link>  
               <a
