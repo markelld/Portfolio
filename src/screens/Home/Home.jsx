@@ -13,19 +13,18 @@ const Home = () => {
           <div className="first-block">
             <div className="statement">
               <h1 className="name-heading">Hey, I'm Markell. </h1> 
-              <h4 className="tagline">I'm a{" "}
+              <h4 className="tagline">I'm an{" "}
                 <Typical
                   className="typical"
                   loop={Infinity}
                   wrapper="b"
                   steps={[
                     "Developer.",
-                    1000,
+                    2000,
                     "Artist.",
-                    1000,
+                    2000,
                     "Bartender.",
-                    1000,
-                    
+                    2000,
                  ]}
                 />
               </h4>
