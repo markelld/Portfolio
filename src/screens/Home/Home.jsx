@@ -13,7 +13,7 @@ const Home = () => {
           <div className="first-block">
             <div className="statement">
               <h1 className="name-heading">Hey, I'm Markell. </h1> 
-              <h4 className="tagline">I'm an{" "}
+              <h4 className="tagline">I'm a{" "}
                 <Typical
                   className="typical"
                   loop={Infinity}
