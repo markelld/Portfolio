@@ -41,12 +41,12 @@
   padding:35px;
 }
 .name-heading{
-  font-size: 4rem; 
+  font-size: 6rem; 
   font-weight: 700;  
   margin-left: 40px;
 }   
 .tagline{
-  font-size: 2rem; 
+  font-size: 3rem; 
   font-weight: 700;  
   margin-left: 40px;
 } 
@@ -188,7 +188,7 @@ li{
   font-weight: 700;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 900px){
   .second-block{
     display: flex;
     flex-flow: row wrap; 
@@ -219,7 +219,7 @@ li{
     font-size: 2rem; 
   }  
   .tagline{
-    font-size: 1rem; 
+    font-size: 1.5rem; 
     font-weight: 700;  
     margin-left: 40px;
   } 
