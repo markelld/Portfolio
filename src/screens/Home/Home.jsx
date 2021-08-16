@@ -122,7 +122,7 @@ const Home = () => {
             </div>
             <div className="project">
               <div>
-                <img src="SS.png" className="project-image" />
+                <img src="SS2.png" className="project-image" />
               </div>
               <h3 className="project-name">Shaken or Stirred?</h3>
               <p className="project-des">
