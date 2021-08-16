@@ -72,7 +72,7 @@ const Home = () => {
                   <li>HTML,CSS,Javascript</li>
                   <li>React for single page applications</li>
                   <li>Axios to utilize Rest Api's</li> 
-                  <li>Bootstrap,Material UI</li>
+                  <li>Bootstrap</li>
                 </ul>
               </div>
               <div className="back-end">
@@ -81,7 +81,7 @@ const Home = () => {
                   <li>MongoDB</li>
                   <li>Express</li>
                   <li>SQL,PostgreSQL</li>
-                  <li>Ruby & Ruby on Rails</li>
+                  <li>Ruby on Rails</li>
                 </ul>
               </div>
               <div className="development-tools">
@@ -126,7 +126,7 @@ const Home = () => {
               </div>
               <h3 className="project-name">Shaken or Stirred?</h3>
               <p className="project-des">
-                Created with React and Airtable, the app consists of classic
+                Created with Ruby on Rails, the app consists of classic
                 cocktail recipes along with creations from fellow bartenders
                 from Chicago.
               </p>
@@ -137,7 +137,7 @@ const Home = () => {
               >
                 <button className="project-button">View Code</button>
               </a>
-              <a href="https://shorst.netlify.app/" target="_blank" alt="">
+              <a href="https://shakenorstirred.herokuapp.com/" target="_blank" alt="">
                 <button className="project-button">View App</button>
               </a>
             </div>
