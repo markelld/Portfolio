@@ -54,7 +54,7 @@ const Home = () => {
               <a
                 target="_blank"
                 alt=""
-                href="https://docs.google.com/document/d/1axaqKrqbP9x1_yrgSuJ0cvta30rMCv2zfxrFHY6JzPI/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1OVLtGNTtBlCMG1Js6FYsGL0O21oggaCfXDhZ-W6-BNQ/edit?usp=sharing"
               >
                 <button variant="danger" className="about-me-button">
                   Resume
