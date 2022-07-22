@@ -15,13 +15,10 @@ const Home = () => {
             <div className="second-half">
               <img src="" className=""/>
             </div>
-            
-            </div>
-          </div> 
-          
-          <h1 className="projects-heading">Projects</h1>
-          
+           </div>
+          </div>
           <div className="second-block">  
+          <h1 className="projects-heading">Projects</h1>
             <div className="project">
                 <div>
                   <img src="CCTD.png" className="project-image" /> 

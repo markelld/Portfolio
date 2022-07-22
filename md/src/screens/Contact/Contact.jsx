@@ -2,8 +2,7 @@ import "./Contact.css";
 import Layout from "../../components/Layout/Layout"; 
 import swal from "sweetalert2"; 
 import emailjs from "emailjs-com";
-import{ init } from 'emailjs-com';
-init("user_FRNhOYXoMd6KkxEHO914J");
+
 
 const Contact = () => { 
 
